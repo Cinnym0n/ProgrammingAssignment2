@@ -2,7 +2,7 @@
 ## compute and cache the inverse of a matrix.
 ##
 ## To use them, type:
-##     makeCacheMatrix(cacheSolve(x))   where 'x' is a square, intvertable,
+##     cacheSolve(makeCacheMatrix(x))   where 'x' is a square, intvertable,
 ##                                      user-specified input matrix
 
 makeCacheMatrix <- function(matrin = matrix()) {
